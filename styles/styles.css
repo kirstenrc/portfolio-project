@@ -56,6 +56,23 @@ p {
   line-height: 2;
 }
 
+.about-hero {
+  padding: 160px 20px;
+}
+
+.about-hero h1 {
+  font-size: 55px;
+}
+
+.about-hero h2 {
+  font-family: var(--default-font-family);
+  font-size: 18px;
+}
+
+.about-content {
+  margin: 30px;
+}
+
 .btn-branding {
   background: var(--primary-color);
   border-radius: 4px;
@@ -79,6 +96,11 @@ p {
   margin: 120px 60px 0;
 }
 
+.profile-img {
+  max-width: 400px;
+  border-radius: 20px;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 55px;
@@ -96,5 +118,19 @@ p {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+
+  .about-hero {
+    text-align: center;
+    padding: 0;
+  }
+
+  .about-hero h1 {
+    line-height: 1.5;
+    font-size: 50px;
+  }
+
+  .profile-img {
+    margin: 20px 0;
   }
 }
