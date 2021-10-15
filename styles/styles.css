@@ -56,21 +56,28 @@ p {
   line-height: 2;
 }
 
-.about-hero {
+.content-container {
   padding: 160px 20px;
 }
 
-.about-hero h1 {
+.content-container h1 {
   font-size: 55px;
 }
 
-.about-hero h2 {
+.content-container h2 {
   font-family: var(--default-font-family);
   font-size: 18px;
 }
 
-.about-content {
-  margin: 30px;
+.content-container h3 {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 20px 0 0;
+}
+
+.content-container p {
+  font-size: 14px;
 }
 
 .btn-branding {
@@ -120,12 +127,12 @@ p {
     text-align: center;
   }
 
-  .about-hero {
+  .content-container {
     text-align: center;
     padding: 0;
   }
 
-  .about-hero h1 {
+  .content-container h1 {
     line-height: 1.5;
     font-size: 50px;
   }
