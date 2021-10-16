@@ -35,6 +35,20 @@ p {
   line-height: 30px;
 }
 
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #847efc;
+  text-decoration: underline;
+  cursor: pointer;
+}
+a:visited {
+  color: #534dc6;
+}
+
 .hero {
   background-color: var(--secondary-color);
   padding: 160px 20px;
