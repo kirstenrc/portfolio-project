@@ -1,8 +1,7 @@
 :root {
-  --primary-color: #6c63ff;
+  --primary-color: #f2dada;
   --accent-color: #272142;
-  --secondary-color: #f9f7fe;
-  --heading-font-family: "Playfair Display", sans-serif;
+  --secondary-color: #f6f6f6;
   --default-font-family: "Poppins", serif;
 }
 
@@ -16,8 +15,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: black;
-  font-family: var(--heading-font-family);
+  color: #999999;
   font-weight: bold;
 }
 
@@ -27,6 +25,10 @@ h1 {
 
 h2 {
   font-size: 64px;
+}
+
+h3 {
+  font-size: 48px;
 }
 
 p {
@@ -41,7 +43,7 @@ p {
 }
 
 .contact a:hover {
-  color: #847efc;
+  color: #999999;
   text-decoration: underline;
   cursor: pointer;
 }
@@ -72,18 +74,15 @@ p {
 }
 
 .hero p {
-  color: var(--accent-color);
-  font-size: 36px;
+  color: #999999;
+  font-size: 96px;
   font-weight: bold;
   margin: 0;
 }
 
 .hero h2 {
-  color: var(--accent-color);
-  font-family: var(--default-font-family);
   font-size: 24px;
   font-weight: normal;
-  line-height: 2;
 }
 
 .content-container {
@@ -133,9 +132,59 @@ p {
   margin: 120px 60px 0;
 }
 
+.vertical-line {
+  border-left: 2px solid #999999;
+  height: 300px;
+  position: absolute;
+  left: 50%;
+}
+
 .profile-img {
-  max-width: 400px;
+  max-width: 300px;
   border-radius: 20px;
+  margin-left: 200px;
+}
+
+.project-img {
+  border-radius: 8px;
+}
+
+.skills-icons {
+  list-style: none;
+}
+
+.skills-icons li {
+  background-color: #bfbfbf;
+  color: white;
+  font-size: 10px;
+  display: inline-block;
+  line-height: 1;
+  padding: 10px;
+  border-radius: 30px;
+  margin: 10px;
+}
+
+.about-me {
+  margin-left: 30px;
+}
+
+footer .content {
+  text-align: center;
+}
+
+footer .email-link {
+  color: #4c494d;
+  font-size: 30px;
+}
+
+footer .social-links a {
+  background: var(--branding-color-light);
+  border-radius: 50%;
+  color: #e2c5cf;
+  font-size: 20px;
+  margin: 0 20px;
+  padding: 10px 16px;
+  text-decoration: none;
 }
 
 @media (max-width: 960px) {
