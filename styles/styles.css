@@ -40,6 +40,35 @@ ul {
   list-style: none;
 }
 
+header {
+  background-color: var(--secondary-color);
+  padding: 160px 20px;
+}
+
+header h2 {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+header p {
+  color: var(--accent-color);
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 1;
+}
+
+header img {
+  width: 60%;
+  margin: 0 0 0 50px;
+}
+
+header .vertical-line {
+  border-left: 2px solid #999999;
+  height: 350px;
+  position: absolute;
+  left: 50%;
+}
+
 footer {
   background-color: #f6f6f6;
   text-align: center;
@@ -106,35 +135,6 @@ footer .social-links a {
   border: 2px solid #c6c4c4;
 }
 
-.hero {
-  background-color: var(--secondary-color);
-  padding: 160px 20px;
-}
-
-.hero h2 {
-  font-size: 24px;
-  font-weight: normal;
-}
-
-.hero p {
-  color: var(--accent-color);
-  font-weight: bold;
-  font-size: 96px;
-  line-height: 1;
-}
-
-.hero img {
-  width: 60%;
-  margin: 0 0 0 50px;
-}
-
-.hero .vertical-line {
-  border-left: 2px solid #999999;
-  height: 350px;
-  position: absolute;
-  left: 50%;
-}
-
 .project-description {
   margin: 120px 60px 0;
 }
@@ -162,6 +162,20 @@ footer .social-links a {
   margin: 10px;
 }
 
+.about h2 {
+  margin: 0 0 0 120px;
+}
+
+.about p {
+  line-height: 2.5;
+  padding: 30px;
+  margin: 60px;
+}
+
+.about img {
+  padding: 30px;
+}
+
 .about .signature {
   font-family: var(--cursive-font-family);
   font-size: 56px;
@@ -177,21 +191,47 @@ footer .social-links a {
     font-size: 44px;
   }
 
-  .hero {
+  header {
     padding: 80px 20px;
   }
 
-  .hero p {
+  header p {
     font-size: 55px;
     line-height: 2;
   }
 
-  .hero img {
+  header img {
     width: 80%;
   }
 
   .project-description {
     padding: 0;
     text-align: center;
+  }
+}
+
+@media (max-width: 540px) {
+  h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  header h2 {
+    text-align: center;
+  }
+
+  header p {
+    font-size: 36px;
+    line-height: 1;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .btn-branding {
+    display: block;
+  }
+
+  .projects h3 {
+    font-size: 32px;
   }
 }

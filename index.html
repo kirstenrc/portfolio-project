@@ -32,7 +32,10 @@
   </head>
 
   <body>
-    <div class="hero">
+    <header>
+      <div class="d-sm-block d-md-none d-lg-none">
+        <img src="images/portrait.png" alt="Kirsten Cox" class="display-flex" />
+      </div>
       <div class="row">
         <div class="col">
           <p>Hello I am</p>
@@ -42,7 +45,7 @@
             <a href="#contact" class="btn btn-branding">Contact Me</a>
           </div>
         </div>
-        <div class="col">
+        <div class="col d-none d-md-block d-lg-block">
           <div class="vertical-line d-none d-md-block d-lg-block"></div>
           <img
             src="images/portrait.png"
@@ -51,37 +54,28 @@
           />
         </div>
       </div>
-    </div>
+    </header>
 
     <div class="container projects">
       <h2 class="p-5">Projects</h2>
+      <div class="d-sm-block d-md-block d-lg-none">
+        <img
+          src="images/Dictionary-app-screenshot.JPG"
+          alt="Dictionary application coded by Kirsten Cox"
+          class="img-fluid project-img"
+        />
+      </div>
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <a
-            href="https://peaceful-banach-dd18fd.netlify.app"
-            class="project-link"
-            target="_blank"
-            title="Go to project"
-            rel="noreferrer noopener"
-          >
-            <img
-              src="images/Dictionary-app-screenshot.JPG"
-              alt="Dictionary application coded by Kirsten Cox"
-              class="img-fluid project-img"
-            />
-          </a>
+          <img
+            src="images/Dictionary-app-screenshot.JPG"
+            alt="Dictionary application coded by Kirsten Cox"
+            class="img-fluid project-img"
+          />
         </div>
         <div class="col">
           <div class="project-description">
-            <a
-              href="https://peaceful-banach-dd18fd.netlify.app"
-              class="project-link"
-              target="_blank"
-              title="Go to project"
-              rel="noreferrer noopener"
-            >
-              <h3>Dictionary App</h3>
-            </a>
+            <h3>Dictionary App</h3>
             <p class="text-muted">
               React dictionary application created using create-react-app. I
               used dictionaryapi.dev as well as the Pexels API to search photos.
@@ -100,18 +94,17 @@
         </div>
       </div>
 
+      <div class="d-sm-block d-md-block d-lg-none">
+        <img
+          src="images/Weather-app-screenshot2.JPG"
+          alt="Weather app coded by Kirsten Cox"
+          class="img-fluid project-img"
+        />
+      </div>
       <div class="row mb-5">
         <div class="col">
           <div class="project-description">
-            <a
-              href="https://elated-archimedes-ae4ba2.netlify.app"
-              class="project-link"
-              target="_blank"
-              title="Go to project"
-              rel="noreferrer noopener"
-            >
-              <h3>Weather App</h3>
-            </a>
+            <h3>Weather App</h3>
             <p class="text-muted">
               React weather application created using create-react-app and
               openweathermap API
@@ -129,49 +122,32 @@
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <a
-            href="https://elated-archimedes-ae4ba2.netlify.app"
-            class="project-link"
-            target="_blank"
-            title="Go to project"
-            rel="noreferrer noopener"
-          >
-            <img
-              src="images/Weather-app-screenshot2.JPG"
-              alt="Weather app coded by Kirsten Cox"
-              class="img-fluid project-img"
-            />
-          </a>
+          <img
+            src="images/Weather-app-screenshot2.JPG"
+            alt="Weather app coded by Kirsten Cox"
+            class="img-fluid project-img"
+          />
         </div>
       </div>
 
+      <div class="d-sm-block d-md-block d-lg-none">
+        <img
+          src="images/authentic-quiche-screenshot2.JPG"
+          alt="Recipe blog coded by Kirsten Cox"
+          class="img-fluid project-img"
+        />
+      </div>
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <a
-            href="https://zen-torvalds-74765b.netlify.app"
-            class="project-link"
-            target="_blank"
-            title="Go to project"
-            rel="noreferrer noopener"
-          >
-            <img
-              src="images/authentic-quiche-screenshot2.JPG"
-              alt="Recipe blog coded by Kirsten Cox"
-              class="img-fluid project-img"
-            />
-          </a>
+          <img
+            src="images/authentic-quiche-screenshot2.JPG"
+            alt="Recipe blog coded by Kirsten Cox"
+            class="img-fluid project-img"
+          />
         </div>
         <div class="col">
           <div class="project-description">
-            <a
-              href="https://zen-torvalds-74765b.netlify.app"
-              class="project-link"
-              target="_blank"
-              title="Go to project"
-              rel="noreferrer noopener"
-            >
-              <h3>Recipe Blog</h3>
-            </a>
+            <h3>Recipe Blog</h3>
             <p class="text-muted">
               A multi-page responsive blog created with HTML & CSS
             </p>
@@ -189,38 +165,39 @@
       </div>
     </div>
 
-    <div class="about p-5">
-      <h2 class="p-5">About</h2>
+    <div class="about">
+      <h2 class="p-4">About</h2>
       <div>
         <div class="row">
           <div class="col">
             <p class="text-muted">
-              Nec feugiat in fermentum posuere urna nec tincidunt. Vitae
-              suscipit tellus mauris a diam. Ultrices mi tempus imperdiet nulla
-              malesuada. Suspendisse ultrices gravida dictum fusce ut placerat
-              orci. Elit pellentesque habitant morbi tristique senectus et netus
-              et malesuada. Urna id volutpat lacus laoreet non curabitur gravida
-              arcu ac. Lobortis scelerisque fermentum dui faucibus in ornare
-              quam viverra orci.
+              Hi, I'm Kirsten Cox, I create enjoyable, user friendly websites
+              for wonderful people!
+              <br />
+              <br />
+
+              Raised in the Pacific Northwest, I currently live in Tacoma
+              Washington with my husband Bryan and our German-shephard mix
+              Thunder.
+              <br />
+              <br />
+
+              When I'm not learning about coding and designing new projects, I
+              love Reading, Cooking, Hiking, Photography and Travel.
+              <br />
+              <br />
+
+              Come back sometime to see how this page and my skillset grows. Or
+              follow me on social to watch my coding journey!
             </p>
-            <p class="signature text-muted p-5">Kirsten Cox</p>
+            <p class="signature text-muted p-3">Kirsten Cox</p>
           </div>
-          <div class="col">
+          <div class="col d-none d-lg-block">
             <img
               src="images/peonies.jpg"
               alt="flowers"
-              class="img-fluid w-100 opacity-50 rounded"
+              class="img-fluid w-75 opacity-50 rounded"
             />
-          </div>
-          <div class="col">
-            <p class="text-muted">
-              Tristique sollicitudin nibh sit amet commodo. Et odio pellentesque
-              diam volutpat commodo. Aliquam etiam erat velit scelerisque in
-              dictum non consectetur. Rhoncus urna neque viverra justo. Urna
-              cursus eget nunc scelerisque viverra mauris. Odio euismod lacinia
-              at quis. Eu nisl nunc mi ipsum faucibus vitae aliquet. Lectus arcu
-              bibendum at varius vel pharetra vel turpis nunc.
-            </p>
           </div>
         </div>
       </div>
